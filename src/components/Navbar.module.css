@@ -36,7 +36,7 @@
   .at {
     color:  #A5A5A5;
     text-decoration: none;
-    font-size: 8px;
+    font-size: 10px;
     transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
   }
 
