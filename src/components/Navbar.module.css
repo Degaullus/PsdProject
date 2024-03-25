@@ -12,11 +12,21 @@
     color:  #A5A5A5;
     
     position: fixed; /* Set position to fixed */
-  top: 0; /* Stick to the top of the viewport */
-  
-  z-index: 10;
+        top: -60px; /* Initially above the viewport */
+        
+        z-index: 10;
+        
+        animation: slideFromTop 5s ease forwards; /* Animation effect */
+    }
 
-  }
+    @keyframes slideFromTop {
+        from {
+            top: -60px; /* Start position above the viewport */
+        }
+        to {
+            top: 0; /* End position at the top of the viewport */
+        }
+    }
 
   .rabbit {
     width: 30px; 
