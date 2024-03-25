@@ -1,6 +1,9 @@
-export default function Collaborations() {
+import styles from "./Collaborations.module.css";
 
-    return(
-        <p>Collaborations</p>
-    )
+export default function Collaborations() {
+  return (
+    <div className={styles.background}>
+      <p>Collaborations</p>
+    </div>
+  );
 }

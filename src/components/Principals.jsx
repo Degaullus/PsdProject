@@ -1,6 +1,9 @@
-export default function Principals() {
+import styles from "./Principals.module.css";
 
-    return(
-        <p>Principals</p>
-    )
+export default function Principals() {
+  return (
+    <div className={styles.background}>
+      <p>Principals</p>
+    </div>
+  );
 }

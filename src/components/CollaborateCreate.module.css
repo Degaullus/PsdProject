@@ -1,5 +1,7 @@
 .background {
-  background-image: url("/back");
+  display: flex;
+  justify-content: center;
+  background-image: url("/BackgroundGrayCreate.png");
   background-position: center;
   background-size: cover;
 }

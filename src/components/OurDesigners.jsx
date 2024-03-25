@@ -1,6 +1,9 @@
-export default function OurDesigners() {
+import styles from "./OurDesigners.module.css";
 
-    return(
-        <p>OurDesigners</p>
-    )
+export default function OurDesigners() {
+  return (
+    <div className={styles.background}>
+      <p>OurDesigners</p>
+    </div>
+  );
 }

@@ -1,6 +1,9 @@
-export default function Weekly() {
+import styles from "./Weekly.module.css";
 
-    return(
-        <p>Weekly</p>
-    )
+export default function Weekly() {
+  return (
+    <div className={styles.background}>
+      <p>Weekly</p>
+    </div>
+  );
 }

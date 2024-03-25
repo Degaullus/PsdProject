@@ -1,6 +1,9 @@
-export default function Design() {
+import styles from "./Design.module.css";
 
-    return(
-        <p>design</p>
-    )
+export default function Design() {
+  return (
+    <div className={styles.background}>
+      <p>Design</p>
+    </div>
+  );
 }

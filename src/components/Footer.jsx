@@ -1,6 +1,9 @@
-export default function Footer() {
+import styles from "./Footer.module.css";
 
-    return(
-        <p>Footer</p>
-    )
+export default function Footer() {
+  return (
+    <div className={styles.background}>
+      <p>Footer</p>
+    </div>
+  );
 }
