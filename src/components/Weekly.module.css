@@ -94,7 +94,7 @@ margin-right: 150px;
   text-align: justify;
   margin-left: 40px;
   margin-right: 40px;
-  animation: slideFromLeft 1s ease forwards; /* Animation effect */
+  animation: slideFromLeft 10s ease forwards; /* Animation effect */
   opacity: 0; /* Initially hidden */
 }
 
