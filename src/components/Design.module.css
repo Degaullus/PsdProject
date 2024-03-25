@@ -55,6 +55,20 @@ h1:hover {
   text-align: justify;
   margin-right: 20px;
   font-size: 10px;
+  animation: slideFromLeft 5s ease forwards; /* Animation effect */
+  opacity: 0; /* Initially hidden */
+}
+
+@keyframes slideFromLeft {
+  from {
+      transform: translateX(-100%); /* Start position off screen to the left */
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0); /* End position on screen */
+      opacity: 1;
+  }
+
 }
 
 .right {
@@ -66,8 +80,20 @@ h1:hover {
   font-size: 10px;
   text-align: justify;
 margin-right: 20px;
-  
-}
+animation: slideFromRight 4s ease forwards; /* Animation effect */
+        opacity: 0; /* Initially hidden */
+    }
+
+    @keyframes slideFromRight {
+        from {
+            transform: translateX(100%); /* Start position off screen to the right */
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0); /* End position on screen */
+            opacity: 1;
+        }
+    }
 
 .midd {
   display: flex;
