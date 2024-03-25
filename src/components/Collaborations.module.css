@@ -4,4 +4,63 @@
   background-image: url("/BackgroundGrayCollaborations.png");
   background-position: center;
   background-size: cover;
+  height: 2000px;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  margin-top: 15rem;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.containerRight {
+  flex-direction: row-reverse;
+}
+
+.container img {
+  border-radius: 50px;
+}
+
+.containerHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: -50px;
+}
+
+.containerRight img {
+  margin-right: 125px;
+}
+
+.text1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: grey;
+}
+
+.text2 {
+  font-size: 2rem;
+  width: 100px;
+}
+
+.text3 {
+  width: 300px;
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.kreise {
+  font-size: 2rem;
 }
