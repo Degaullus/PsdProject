@@ -1,3 +1,5 @@
-.text{
-   
+.background {
+    background-image: url("/backGroundBlack.png");
+    background-position: center;
+    background-size: cover;
 }
