@@ -1,7 +1,82 @@
 .background {
   display: flex;
   justify-content: center;
-  background-image: url("/BackgroundBlack.png");
+  background-image: url("/BackgroundBlackDesigners.png");
   background-position: center;
   background-size: cover;
+/*   height: 800px; */
+}
+
+.white {
+  background-color: #f1f2f1;
+  width: 1280px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 10px;
+  border-radius: 25px;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+h1:hover {
+  transform: scale(1.2); /* Scale up by 20% */
+}
+
+.titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+ 
+
+}
+
+.undertitle {
+  font-weight: 200;
+}
+
+.dotimage{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  text-align: justify;
+  margin-right: 20px;
+  font-size: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 10px;
+  text-align: justify;
+margin-right: 20px;
+  
+}
+
+.midd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  margin-right: 30px;
+
 }
