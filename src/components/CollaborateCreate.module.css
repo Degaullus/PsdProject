@@ -1,5 +1,5 @@
 .background {
-    background-image: url("/backGroundBlack.png");
-    background-position: center;
-    background-size: cover;
+  background-image: url("/back");
+  background-position: center;
+  background-size: cover;
 }
