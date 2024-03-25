@@ -4,4 +4,11 @@
   background-image: url("/BackgroundGrayCollaborations.png");
   background-position: center;
   background-size: cover;
+  height: 2000px;
+  width: auto;
+}
+
+.header {
+  font-size: 7rem;
+  margin-top: 15rem;
 }
