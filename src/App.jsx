@@ -16,9 +16,8 @@ function App() {
 
   return (
     <>
-    <h1>DESIGN</h1>
-    <Design />
     <Navbar />
+    <Design />
     <Weekly />
     <Collaborations />
     <OurDesigners/>
